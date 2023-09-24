@@ -5,7 +5,7 @@ public class AtmInterface
 	{
 		int amount=75000;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter 1 for deposit\nEnter 2 for withdraw\nEnter 3 for check balance\nEnter any other number for exit\n");
+		System.out.println("Enter 1 for deposit\n Enter 2 for withdraw\n Enter 3 for check balance\n Enter any other number for exit\n");
 		int n=sc.nextInt();
 		switch(n)
 		{
